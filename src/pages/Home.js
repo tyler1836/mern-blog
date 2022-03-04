@@ -1,12 +1,16 @@
 import React from 'react'
 import Header from '../components/Header'
+import Sidebar from '../components/Sidebar'
+import Posts from './Posts'
 
 function Home() {
   return (
+  <><Header />
     <div className='home'>
-        <Header />
-        <h1>homepage</h1>
+        <Posts />
+        <Sidebar />
     </div>
+    </>
   )
 }
 
